@@ -21,6 +21,8 @@ Predicts whether Bitcoin's next-period closing price will move up (1) or down (0
 
 **Concepts:** KNN classification, feature engineering, temporal data splitting, predictive analytics
 
+The OHLCV dataset (Jan 2012 – Apr 2026) is not included due to file size. Download from Kaggle or your preferred source and place it in knn-price-predictor/data/ as btcusd_1-min_data.csv.
+
 ### CDC Health Data Pipeline
 A full 5-stage data pipeline processing CDC PLACES County Health Data (2022 release) across 3,143 U.S. counties and 28 health metrics.
 
